@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  margin-top: 2vw;
+}
+.nav > li{
+  position: relative;
+  display: block;
+  float: left;
+}
+.nav > li > a{
+  color: white;
+  font-size: 1.2vw;
+}
+.navbar-header a{
+  text-decoration: none;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
+  font-family: 'Russo One', sans-serif;
+  font-size: 2vw;
+}
+.navbar-header > a >h2{
+  color: white;
+  font-size: 3vw;
+}
+.utama, .batas{
+  position: relative;
+}
+.home{
+  width: 100%;
+  height: 970px;
+  background: transparent;
+  background-image: url('image/bg.jpg');
+  background-repeat:no-repeat;
+  background-color: #00a17e;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.gradient{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(top left, #185a9d 0%, #43cea2 100%);
+  opacity: .9;
+  z-index: 0;
+}
+.img {
+  position: relative;
+  text-align: center;
+}
+.img img{
+  margin-top: 10vw;
+  width: 25%;
+  opacity: .9;
+}
+.ket{
+  text-align: center;
+  margin-top: 2vw;
+}
+.ket h2{
+  display: inline;
+  color: white;
+  opacity: .9;
+}
+.typed::after{
+  display: inline;
+  content: '|';
+  opacity: 1;
+  color: white;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.batas{
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+.rotate{
+  width: 100%;
+  height: 530px;
+  background: white;
+  transform: skewY(-2deg);
+  position: absolute;
+  top: -2.5vw;
+  z-index: 2;
+}
+.manfaat{
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  z-index: 2;
+  top: -10vw;
+  color: rgb(66, 68, 67);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.batas > p{
+  width: 100%;
+  position: absolute;
+  bottom: 10vw;
+  z-index: 2;
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(93, 93, 93);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.manfaat .col-md-4{
+  height: 20vw;
+  float: left;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+  background: white;
+  text-align: center;
+  padding: 0;
+}
+.mf{
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: 1s;
+  position: absolute;
+  z-index: 3;
+  padding: 2vw 2%;
+  font-size: 1.2vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+.mf:hover{
+  background: transparent;
+  color: white;
+}
+.manfaat .organisasi{
+  background: url('image/10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.manfaat .teknologi{
+  background: url('image/img_7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.manfaat .mandiri{
+  background: url('image/mandiri.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.jr{
+  height: 700px;
+  position: relative;
+  background: -webkit-linear-gradient(top left, #185a9d 0%, #43cea2 100%);
+  clear: both;
+}
+.jurusan{
+  height: 100px;
+  padding-top: 6vw;
+  text-align: center;
+  color: white;
+}
+.pack{
+  position: relative;
+  width: 100%;
+}
+.pack h2{
+  font-size: 3.5vw;
+  font-weight:600;
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: .9;
+}
+.pack p{
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+.garis_b{
+  width: 8%;
+  height: 3px;
+  margin-top: 2%;
+  background: rgb(208, 208, 208);
+}
+.img .jr_img{
+  width: 100%;
+  margin: 2vw 0 auto;
+  opacity: 1;
+}
+.karya{
+  height: 450px;
+  background: white;
+  transform: rotateX(-2deg;);
+}
